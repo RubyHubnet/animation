@@ -1,0 +1,95 @@
+body{
+    background-color: black;
+}
+#d1{
+    height: 250px;
+    width: 400px;
+    border: 5px solid white ;
+    box-shadow: 20px 20px 200px whitesmoke;
+    text-align: center;
+    position:relative;
+    margin: 100px;
+}
+#d2{
+    height: 60px;
+    width: 60px;
+    border: 5px solid blue;
+    box-shadow: 6px 6px 60px pink;
+    border-radius: 50%;
+    margin-top: -430px;
+    margin-left: 40px;
+    position:absolute;
+    animation-name: circle;
+    animation-duration: 5s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    border-color: blueviolet burlywood green midnightblue;
+    z-index: 2;    
+}
+@keyframes circle{
+    25%{
+        transform: rotate(1deg) translateX(450px);
+    }
+    50%{
+        transform: rotate(-59deg) translateY(480px);
+    } 
+    75%{
+        transform: rotate(90deg) translateX(310px);
+    } 
+    100%{
+        transform: rotate(90deg) translateY(9px);
+    } 
+}       
+.com{
+    font-size: 60px;
+    font-weight: bold;
+    display: inline-block;
+}
+#S1{
+    color: brown;
+    transition-property: all;
+    transition-duration: 3s;
+}
+#S1:hover{
+    transform: translateX(190px);
+}
+#S2{
+    color: cornflowerblue;
+    transition-property: all;
+    transition-duration: 3s;    
+}
+#S2:hover{
+    transform: translateX(190px);
+}
+#S3{
+    color: blueviolet;
+    transition-property: all;
+    transition-duration: 3s;
+}
+#S3:hover{
+    transform: translateX(190px);
+}
+#S4{
+    color: yellowgreen;
+    transition-property: all;
+    transition-duration: 3s;
+}
+#S4:hover{
+    transform: translateX(190px);
+}
+#S5{
+    color: darkorange;
+    transition-property: all;
+    transition-duration: 3s;
+}
+#S5:hover{
+    transform: translateX(190px);
+}
+#S6{
+    color:teal;
+    transition-property: all;
+    transition-duration: 3s;
+}
+#S6:hover{
+    transform: translateX(190px);
+}
